@@ -8,28 +8,34 @@
   </head>
   <body>
     <header>
-      <nav>
-        <h1>Travel Site</h1>
-        <ul>
-          <li>Home</li>
-          <li>Hawaii</li>
-          <li>Iceland</li>
-          <li>Greece</li>
+      <nav class="main-nav">
+        <h2 class="main-nav_title">Travel Site</h2>
+        <ul class="main-nav_list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Hawaii</a></li>
+          <li><a href="#">Iceland</a></li>
+          <li><a href="#">Greece</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="hero">
-      <h2>Travelling Comes with Endless Discoveries</h2>
-      <p>
+    <section class="hero-section">
+      <h1 class="hero-section__title">
+        Travelling Comes with Endless Discoveries
+      </h1>
+      <p class="hero-section__description">
         Don’t let your dreams be just dreams. Experience the world by booking a
         vacation with us now
       </p>
-      <button>Get Started</button>
+      <a href="#"
+        ><button class="hero-section__button" type="button">
+          Get Started
+        </button></a
+      >
     </section>
 
     <section class="recommendations">
-      <h2>Recommendations</h2>
+      <h2 class="recommendations__title">Recommendations</h2>
       <div class="recommendations__card">
         <img
           class="card__image"
@@ -55,30 +61,30 @@
     </section>
 
     <footer>
-      <div class="container">
-        <h3 class="container_head">Contact</h3>
-        <p class="container__description">info@travelsite.com</p>
+      <div class="footer-container">
+        <h3 class="footer-container_head">Contact</h3>
+        <p class="footer-container__description">info@travelsite.com</p>
       </div>
 
-      <div class="container">
-        <h3 class="container_head">Hours</h3>
-        <p class="container__description">
+      <div class="footer-container">
+        <h3 class="footer-container_head">Hours</h3>
+        <p class="footer-container__description">
           Monday - Friday 9:00 AM - 5:00 PM <br />
           Saturday 10:00 AM - 4:00 PM <br />
           Sunday Closed
         </p>
       </div>
 
-      <div class="container">
-        <h3 class="container_head">Social</h3>
+      <div class="footer-container">
+        <h3 class="footer-container_head">Social</h3>
         <a href="http://instagram.com"
-          ><img class="container__picture" src="#" alt="instagram"
+          ><img class="footer-container__picture" src="#" alt="instagram"
         /></a>
         <a href="http://facebook.com"
-          ><img class="container__picture" src="#" alt="facebook"
+          ><img class="footer-container__picture" src="#" alt="facebook"
         /></a>
         <a href="http://twitter.com"
-          ><img class="container__picture" src="#" alt="twitter"
+          ><img class="footer-container__picture" src="#" alt="twitter"
         /></a>
       </div>
     </footer>
