@@ -21,8 +21,9 @@ html {
   padding: 1rem;
 }
 
-.main-nav_list a:nth-last-child() {
-  text-decoration: none;
+.main-nav__title {
+  color: #335576;
+  padding-left: 5rem;
 }
 
 .main-nav__item {
@@ -31,7 +32,7 @@ html {
   padding-right: 1rem;
 }
 
-.main-nav__item:last-child {
+.main-nav__link--last {
   margin-right: 5rem;
 }
 
@@ -45,10 +46,58 @@ html {
 }
 
 .main-nav__link--selected {
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid #db7a4e;
 }
 
-.main-nav__title {
+/********* HERO SECTION *********/
+
+.hero-section {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero-section__text,
+.hero-section__container {
+  margin-bottom: 5rem;
+}
+
+/** specific to hero text **/
+
+.hero-section__text {
+  text-align: left;
   color: #335576;
-  padding-left: 5rem;
+  margin-top: 6rem;
+}
+
+.hero-section__title {
+  font-size: 2.2rem;
+  margin-bottom: 1.7rem;
+}
+
+.hero-section__description {
+  font-size: 0.86rem;
+  margin-bottom: 1.5rem;
+}
+
+/** specific to hero image **/
+
+.hero-section__container {
+  justify-content: flex-end;
+  margin-top: 2.5rem;
+}
+
+.hero-section__container-image {
+  max-width: 28rem;
+  max-height: 28rem;
+}
+
+/** specific to button **/
+
+.hero-section__button {
+  color: #fff;
+  background-color: #db7a4e;
+  padding: 0.5rem 2rem;
+  border-radius: 12.5rem;
+  border: none;
 }

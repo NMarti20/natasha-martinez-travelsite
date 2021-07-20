@@ -9,10 +9,8 @@
   <body>
     <header>
       <nav class="main-nav">
-        <!--<div class="main-nav__heading-container">-->
         <h2 class="main-nav__title">Travel Site</h2>
 
-        <!--<div class="main-nav__list-container">-->
         <ul class="main-nav__list">
           <li class="main-nav__item">
             <a class="main-nav__link main-nav__link--selected" href="#">Home</a>
@@ -24,25 +22,38 @@
             <a class="main-nav__link" href="#">Iceland</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link" href="#">Greece</a>
+            <a class="main-nav__link main-nav__link--last" href="#">Greece</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <section class="hero-section">
-      <h1 class="hero-section__title">
-        Travelling Comes with Endless Discoveries
-      </h1>
-      <p class="hero-section__description">
-        Don’t let your dreams be just dreams. Experience the world by booking a
-        vacation with us now
-      </p>
-      <a href="#"
-        ><button class="hero-section__button" type="button">
-          Get Started
-        </button></a
-      >
+      <div class="hero-section__text">
+        <h1 class="hero-section__title">
+          Travelling Comes With<br />
+          Endless Discoveries
+        </h1>
+        <p class="hero-section__description">
+          Don’t let your dreams be just dreams. Experience the world by booking
+          a<br />
+          vacation with us now
+        </p>
+
+        <a href="#"
+          ><button class="hero-section__button" type="button">
+            Get Started
+          </button></a
+        >
+      </div>
+
+      <div class="hero-section__container">
+        <img
+          class="hero-section__container-image"
+          src="./assets/Images/hero.png"
+          alt="plane around the world"
+        />
+      </div>
     </section>
 
     <section class="recommendations">
