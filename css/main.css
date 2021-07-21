@@ -137,3 +137,39 @@ html {
   padding-left: 8rem;
   background: transparent;
 }
+
+/***************************************
+        FOOTER SECTION 
+***************************************/
+
+.footer {
+  background-color: peachpuff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-container__head,
+.footer-container__description,
+.footer-container__picture {
+  color: #335576;
+}
+
+.footer-container__head {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.footer-container__description {
+  display: inline-flex;
+  font-size: 14px;
+}
+.footer-container__picture {
+  text-decoration: none;
+  max-height: 1.5rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.footer-container__description,
+.footer-container__picture {
+  margin-bottom: 2.5rem;
+}
