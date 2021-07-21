@@ -1,0 +1,55 @@
+.main {
+  height: 46rem;
+  min-width: 100%;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/***************************************
+        MAIN SECTION FOR ALL COUNTRIES
+***************************************/
+
+.main__title {
+  color: #fff;
+  font-size: 4.3rem;
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+
+.main__container {
+  display: flex;
+  justify-content: center;
+}
+
+.main__card {
+  background-color: #fff;
+  border-radius: 0.313rem;
+  margin-top: 7rem;
+  width: 16rem;
+  height: 23.5rem;
+  margin-right: 2.188rem;
+  margin-left: 0.625rem;
+}
+
+.main__day {
+  border-bottom: 2px solid black;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.main__list {
+  text-align: center;
+}
+
+.main__item {
+  margin-top: 1rem;
+  list-style: none;
+  background-color: #fefaf5;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}

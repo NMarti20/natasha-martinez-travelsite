@@ -61,19 +61,23 @@
   height: 30rem;
 }
 
-.rec__title {
-  color: #335576;
-  margin-top: 2.6rem;
-  padding-left: 4.5rem;
-}
-
+.rec__title,
 .rec__inner-title {
   color: #335576;
+}
+
+.rec__title {
+  margin-top: 2.6rem;
+  padding-left: 4.5rem;
 }
 
 .rec__container {
   display: flex;
   justify-content: center;
+}
+
+.rec__link {
+  text-decoration: none;
 }
 
 .rec__card {

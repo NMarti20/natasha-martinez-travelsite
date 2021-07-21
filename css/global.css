@@ -23,6 +23,9 @@ html {
   padding: 1rem;
 }
 
+.main-nav__link {
+  text-decoration: none;
+}
 .main-nav__title {
   color: #335576;
   padding-left: 5rem;
