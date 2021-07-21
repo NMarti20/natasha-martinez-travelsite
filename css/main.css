@@ -57,24 +57,23 @@
         RECOMMENDATIONS SECTION 
 ***************************************/
 
+.rec {
+  height: 800px;
+}
 .rec__title {
   border: 1px solid black;
 }
 
-.rec-container {
+.rec__container {
   display: flex;
   justify-content: space-evenly;
 }
 
-.rec-container__card {
+.rec__container__card {
   border: 1px solid black;
-
-  position: relative;
-}
-
-.rec-container__image {
   max-width: 20rem;
   max-height: 20rem;
+  background-image: url(./hawaii.css);
 }
 
 .rec-container__title {
